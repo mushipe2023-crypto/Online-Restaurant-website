@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+
+    <div class="form-box" id="login-box">
+      <h2>Welcome Back</h2>
+      <p class="subtitle">Login to continue your dining experience</p>
+      <form action="login.php" method="POST">
+        <div class="input-group">
+          <input type="email" name="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="password" required>
+          <label>Password</label>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="links">
+          <a href="register.php">Create an Account</a> |
+          <a href="forgot_password.php">Forgot Password?</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
